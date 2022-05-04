@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #b8c1ec;
+    font-size: 1rem;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto
+}
+
+header {
+    padding: 1.2rem;
+    background-color: #232946;
+}
+
+.msg-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fffffe;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 10px;
+    cursor: pointer;
+
+}
+
+img {
+    background-size: cover;
+}
+
+main {
+    margin-top: 2rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.box-image{
+    width: 100%;
+}
+
+.box {
+    max-height: 60vh;
+    /* border: 1px solid #000; */
+    border-radius: 5px;
+    width: 100%;
+    background-color: #232946;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+label{
+    color: #fffffe;
+}
+
+.box-menu {
+    padding: 0.5em;
+    border-bottom: 1px solid #fffffe;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.selecaoCodificacao {
+    cursor: pointer;
+}
+
+div img:hover{
+    background-color: #2429451c;
+    transition: 1.5s;
+}
+
+#incrementoCifra {
+    display: flex;
+}
+
+.box-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 15px;
+}
+
+.btn {
+    background-color: #eebbc3;
+    color: #232946;
+    border: none;
+    padding: 0.5em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #2429451c;
+    transition: 1.5s;
+}
+
+textarea {
+    resize: none;
+    border: none;
+    /* outline: none; */
+    width: 80%;
+    height: 15vh;
+    border-radius: 5px;
+}
+
+.box-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    width: 100%;
+    padding: 2rem;;
+}
+
+/* .campoOne {
+    width: 80%;
+    height: 15vh;
+} */
+
+footer {
+    background-color: #232946;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 0.5rem;
+}
+
+footer p {
+    color: #fffffe;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+@media screen and (max-width: 760px) {
+    .box-menu {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .box-text {
+        flex-direction: column;
+    }
+
+    .box-image{
+        display: none;
+    }
+
+}
