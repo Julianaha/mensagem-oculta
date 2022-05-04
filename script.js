@@ -33,11 +33,11 @@ decodifica.addEventListener("click", function () {
 });
 
 //botao codifica e decodifica base64
-btn.addEventListener('click', function (e) {
+btn.addEventListener("click", function (e) {
     e.preventDefault()
     if (codigo.value == "base64" && btn.textContent == "codificar mensagem") {
         saida.value = btoa(entrada.value);
-    } else if (btn.textContent == "decodificar mensagem" && codigo.value == "base") {
+    } else if (btn.textContent == "decodificar mensagem" && codigo.value == "base64") {
         saida.value = atob(entrada.value);
     }
 
