@@ -22,7 +22,7 @@ Neste projeto desenvolvido por mim, consiste em um codificador e decodificador d
 - Eventos do DOM
 - tags semânticas
 
-<div align="center">
-  Desenvolvido por [Juliana Souza](https://www.linkedin.com/in/julianaha/).
-</div>
+
+  **Desenvolvido por [Juliana Souza](https://www.linkedin.com/in/julianaha/).**
+
 
