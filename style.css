@@ -74,6 +74,10 @@ label{
     color: #fffffe;
 }
 
+input, select, option {
+    cursor: pointer;
+}
+
 .box-menu {
     padding: 0.5em;
     border-bottom: 1px solid #fffffe;
@@ -82,17 +86,17 @@ label{
     justify-content: space-around;
 }
 
-.selecaoCodificacao {
+select {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8em;
+    background-color: #eebbc3;
+    border-radius: 3px;
+}
+
+#incrementoCifra input{
+    width: 40px;
+    height: 23px;
     cursor: pointer;
-}
-
-div img:hover{
-    background-color: #2429451c;
-    transition: 1.5s;
-}
-
-#incrementoCifra {
-    display: flex;
 }
 
 .box-btn {
@@ -103,6 +107,7 @@ div img:hover{
 }
 
 .btn {
+    font-family: 'Poppins', sans-serif;
     background-color: #eebbc3;
     color: #232946;
     border: none;
@@ -119,10 +124,12 @@ div img:hover{
 textarea {
     resize: none;
     border: none;
-    /* outline: none; */
     width: 80%;
     height: 15vh;
     border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
 }
 
 .box-text {
@@ -133,11 +140,6 @@ textarea {
     width: 100%;
     padding: 2rem;;
 }
-
-/* .campoOne {
-    width: 80%;
-    height: 15vh;
-} */
 
 footer {
     background-color: #232946;
@@ -162,10 +164,17 @@ footer p {
 
     .box-text {
         flex-direction: column;
+        padding: 1rem;
     }
 
     .box-image{
         display: none;
     }
+}
 
+@media screen and (max-width: 900px){
+    .box-menu {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
 }
