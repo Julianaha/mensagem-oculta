@@ -6,6 +6,7 @@ Neste projeto desenvolvido por mim, consiste em um codificador e decodificador d
 - Um campo de seleção com as opções cifra de césar e base64. Quando cifra de césar estiver selecionado, um outro campo deve surgir no formulário, no qual o incremento utilizado na cifra deverá ser informado.
 - Duas entradas radiais com os textos: "codificar" e "decodificar".
 - Um botão que, com "codificar" selecionado exibe "Codificar Mensagem!"e com "decodificar"selecionado exibe "Decodificar Mensagem!".
+- Estilização livre.
 
 ## Softwares e ferramentas utilizadas nesse projeto 📚
 
@@ -13,3 +14,14 @@ Neste projeto desenvolvido por mim, consiste em um codificador e decodificador d
 - [x] CSS3
 - [x] JavaScript
 - [x] Git
+
+## Habilidades Adquiridas 📝
+
+- Estruturas condicionais
+- Estruturas de repetição
+- Eventos do DOM
+- tags semânticas
+
+<div align="center">
+  Desenvolvido por [Juliana Souza](https://www.linkedin.com/in/julianaha/).
+</div>
