@@ -8,6 +8,8 @@ Neste projeto desenvolvido por mim, consiste em um codificador e decodificador d
 - Um botão que, com "codificar" selecionado exibe "Codificar Mensagem!"e com "decodificar"selecionado exibe "Decodificar Mensagem!".
 - Estilização livre.
 
+<img width="1215" alt="Captura de Tela 2022-05-05 às 15 58 04" src="https://user-images.githubusercontent.com/65184920/167196457-7d4f94f1-3c59-439b-8833-d0041df7b824.png">
+
 ## Softwares e ferramentas utilizadas nesse projeto 📚
 
 - [x] HTML5
@@ -20,7 +22,9 @@ Neste projeto desenvolvido por mim, consiste em um codificador e decodificador d
 - Estruturas condicionais
 - Estruturas de repetição
 - Eventos do DOM
-- tags semânticas
+- Tags semânticas
+- Função atob e btoa
+- Método charCodeAt
 
 
   **Desenvolvido por [Juliana Souza](https://www.linkedin.com/in/julianaha/).**
