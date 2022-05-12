@@ -27,6 +27,6 @@ Neste projeto desenvolvido por mim, consiste em um codificador e decodificador d
 - Método charCodeAt
 
 
-  **Desenvolvido por [Juliana Souza](https://www.linkedin.com/in/julianaha/).**
+ 
 
 
